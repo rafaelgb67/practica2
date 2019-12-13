@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:visibility="visible"
+    tools:context="com.ejemplo.curso.practica2.MainActivity">
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_ambleBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Bold"
+        android:textSize="28sp"
+        app:font_name="ambleBold" />
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_ambleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Light"
+        android:textSize="28sp"
+        app:font_name="ambleLight" />
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_ambleRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Regular"
+        android:textSize="28sp"
+        app:font_name="ambleRegular" />
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_opRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans Regular"
+        android:textSize="28sp"
+        app:font_name="openSansRegular" />
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_opItalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans-Italic"
+        android:textSize="28sp"
+        app:font_name="openSansItalic" />
+
+    <com.ejemplo.curso.practica2.CustomTextView
+        android:id="@+id/tv_pacifico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pacifico"
+        android:textSize="28sp"
+        app:font_name="pacifico" />
+
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_ambleBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Bold"
+        android:textSize="28sp"
+        app:font_name="ambleBold" />
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_ambleLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Light"
+        android:textSize="28sp"
+        app:font_name="ambleLight" />
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_ambleRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amble Regular"
+        android:textSize="28sp"
+        app:font_name="ambleRegular" />
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_opRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans Regular"
+        android:textSize="28sp"
+        app:font_name="openSansRegular" />
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_opItalic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OpenSans-Italic"
+        android:textSize="28sp"
+        app:font_name="openSansItalic" />
+
+    <com.ejemplo.curso.practica2.CustomButton
+        android:id="@+id/bt_pacifico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pacifico"
+        android:textSize="28sp"
+        app:font_name="pacifico" />
+</LinearLayout>
